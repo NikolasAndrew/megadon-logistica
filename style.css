@@ -87,7 +87,7 @@ img{
     transition: 0.3s;
 }
 
-.frete{
+.area-azul{
     background-color: #4EBBEC;
     color: #ffffff;
     text-transform: uppercase;
@@ -101,6 +101,7 @@ img{
     grid-template-columns: 1fr 1fr;
     margin: 120px;
     gap: 40px;
+    margin-bottom: 200px;
     
 }
 
@@ -133,3 +134,108 @@ img{
 .sobre-txt p{
     font-size: 20px;
 }
+
+.servico h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.servico h1::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4EBBEC;
+    margin: auto;
+    margin-top: 20px
+}
+
+.lista-servico{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 120px;
+    gap: 60px;
+}
+
+.lista-servico li{
+    text-align: center;
+}
+
+.lista-servico h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-servico img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.img-caminhao2{
+    background: url(imagem/a7c97cde9ffab837df5c8462a904feb0.jpg) no-repeat;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+    margin: 120px;
+}
+.info h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+
+}
+
+.info h1::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4EBBEC;
+    margin: auto;
+    margin-top: 20px
+}
+
+
+.lista-info{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 40px;
+}
+
+.lista-info h2{
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.lista-info h2:hover{
+    color: #6f6f6f;
+}
+
+.lista-info img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.area-azul{
+    background-color: #4EBBEC;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 110px;
+    text-align: center;
+    font-size: 30px;
+}
+
